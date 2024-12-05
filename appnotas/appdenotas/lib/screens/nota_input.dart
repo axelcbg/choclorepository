@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-// Esta screen permite anotar cosas y cambiar el título de las notas, así como borrarlas. Simplemente eso.
-
+// Esta screen permite anotar cosas y cambiar el título de las notas, así como borrarlas. Simplemente eso. Es la funcionalidad principal de toda la app, permitiendo al usuario generar su propio input y contenido.
+// puede servir al usuario para cualquier necesidad universal de anotacion
 class NotaInputScreen extends StatefulWidget {
   final String noteId; // ID de la nota en Firestore
 

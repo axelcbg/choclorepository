@@ -11,14 +11,14 @@ class NotesHomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Ü NOTE'),
+        title: const Text('Notas by Ü'),
         elevation: 0,
         backgroundColor: theme.colorScheme.primary,
         foregroundColor: theme.colorScheme.onPrimary,
       ),
       body: Column(
         children: [
-          // Carrusel horizontal para notitas rápidas
+          // Carrusel horizontal para notitas rápidas & recordatorios.
           Padding(
             padding: const EdgeInsets.only(top: 16.0, bottom: 16.0, left: 16.0),
             child: SizedBox(
